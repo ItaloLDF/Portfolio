@@ -25,10 +25,11 @@ $(document).ready(function () {
             var p = document.querySelectorAll('.progress-bar');
 
             p[0].setAttribute("style", "width: 85%; transition:2s all");
-            p[1].setAttribute("style", "width: 67%; transition:1.5s all");
+            p[1].setAttribute("style", "width: 77%; transition:1.5s all");
             p[2].setAttribute("style", "width: 40%; transition:1.3s all");
-            p[3].setAttribute("style", "width: 70%; transition:1.5s all");
-            p[4].setAttribute("style", "width: 30%; transition:1.3s all");
+            p[3].setAttribute("style", "width: 80%; transition:1.5s all");
+            p[4].setAttribute("style", "width: 90%; transition:1.3s all");
+            p[5].setAttribute("style", "width: 30%; transition:2s all");
         },
         offset: '90%'
     })
